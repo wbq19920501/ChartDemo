@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.wbq.chart">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+            <!--android:name=".MainActivity"-->
+        <activity
+            android:name="mpchartexample.notimportant.MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity><!-- ATTENTION: This was auto-generated to add Google Play services to your project for
+     App Indexing.  See https://g.co/AppIndexing/AndroidStudio for more information. -->
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+        <activity android:name="mpchartexample.LineChartActivity1"/> <!--  android:configChanges="keyboardHidden|orientation|screenSize"  -->
+        <activity android:name="mpchartexample.LineChartActivity2"/>
+        <activity android:name="mpchartexample.LineChartTime"/>
+        <activity android:name="mpchartexample.BarChartActivity"/>
+        <activity android:name="mpchartexample.HorizontalBarChartActivity"/>
+        <activity android:name="mpchartexample.PieChartActivity"/>
+        <activity android:name="mpchartexample.PiePolylineChartActivity"/>
+        <activity android:name="mpchartexample.MultiLineChartActivity"/>
+        <activity android:name="mpchartexample.BarChartActivityMultiDataset"/>
+        <activity android:name="mpchartexample.DrawChartActivity"/>
+        <activity android:name="mpchartexample.ScatterChartActivity"/>
+        <activity android:name="mpchartexample.BubbleChartActivity"/>
+        <activity android:name="mpchartexample.fragments.SimpleChartDemo"/>
+        <activity android:name="mpchartexample.ListViewBarChartActivity"/>
+        <activity android:name="mpchartexample.ListViewMultiChartActivity"/>
+        <activity android:name="mpchartexample.StackedBarActivity"/>
+        <activity android:name="mpchartexample.AnotherBarActivity"/>
+        <activity android:name="mpchartexample.InvertedLineChartActivity"/>
+        <activity android:name="mpchartexample.CandleStickChartActivity"/>
+        <activity android:name="mpchartexample.CubicLineChartActivity"/>
+        <activity android:name="mpchartexample.RadarChartActivitry"/>
+        <activity android:name="mpchartexample.LineChartActivityColored"/>
+        <activity android:name="mpchartexample.DynamicalAddingActivity"/>
+        <activity android:name="mpchartexample.realm.RealmDatabaseActivityLine"/>
+        <activity android:name="mpchartexample.realm.RealmDatabaseActivityBar"/>
+        <activity android:name="mpchartexample.realm.RealmDatabaseActivityHorizontalBar"/>
+        <activity android:name="mpchartexample.realm.RealmDatabaseActivityScatter"/>
+        <activity android:name="mpchartexample.realm.RealmDatabaseActivityCandle"/>
+        <activity android:name="mpchartexample.realm.RealmDatabaseActivityBubble"/>
+        <activity android:name="mpchartexample.realm.RealmDatabaseActivityPie"/>
+        <activity android:name="mpchartexample.realm.RealmDatabaseActivityRadar"/>
+        <activity android:name="mpchartexample.realm.RealmMainActivity"/>
+        <activity android:name="mpchartexample.RealtimeLineChartActivity"/>
+        <activity android:name="mpchartexample.CombinedChartActivity"/>
+        <activity android:name="mpchartexample.PerformanceLineChart"/>
+        <activity android:name="mpchartexample.BarChartActivitySinus"/>
+        <activity android:name="mpchartexample.ScrollViewActivity"/>
+        <activity android:name="mpchartexample.StackedBarActivityNegative"/>
+        <activity android:name="mpchartexample.realm.RealmWikiExample"/>
+        <activity android:name="mpchartexample.BarChartPositiveNegative"/>
+        <activity android:name="mpchartexample.FilledLineActivity"/>
+        <activity android:name="mpchartexample.HalfPieChartActivity"/>
+
+    </application>
+
+</manifest>
